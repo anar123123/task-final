@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: linear-gradient( 90deg, rgb(204, 204, 225) , rgb(246, 219, 245) , rgb(242,228, 228));
+}
+:root {
+    --orange_color: #ff591d;
+    --purple_color: #5f20ac;
+    --white_color: #ffffff;
+}
+.icon {
+    color: var(--white_color);
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    &:hover {
+        color: var(--orange_color);
+    }
+}
+button {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #5f20ac;
+    transition: .3s;
+    &:hover {
+        background-color: #5f20ac;
+        color: var(--white_color);
+    }
+    a {
+        color: #5f20ac;
+        text-decoration: none;
+    }
+}
+span {
+    font-size: 300%;
+}
+.symbol {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    &:hover {
+        color: var(--purple_color)
+    } 
+}
